@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/escritor"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="15sp"
+        android:background="@color/Blue"
+        android:layout_marginLeft="15sp"
+        android:onClick="botones"/>
+    <Button
+        android:id="@+id/pintor"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="80sp"
+        android:background="@color/Green"
+        android:onClick="botones"/>
+
+    <Button
+        android:id="@+id/escultor"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="15sp"
+        android:background="@color/OrangeRed"
+        android:layout_marginLeft="147sp"
+        android:onClick="botones"/>
+    <Button
+        android:id="@+id/formuregistro"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="15sp"
+        android:background="@color/PaleVioletRed"
+        android:layout_marginLeft="220sp"
+        android:onClick="botones"/>
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="15sp"
+        android:background="@color/Purple"
+        android:layout_marginLeft="290sp"/>
+
+
+    <FrameLayout
+        android:id="@+id/framHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp">
+
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/framTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp"
+        android:layout_below="@+id/framHome">
+
+
+
+    </FrameLayout>
+
+</RelativeLayout>

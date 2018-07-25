@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.senasoft_1.senasoft.Fragments.RegistroFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de artista "
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="15sp"
+        android:textSize="20sp"
+        android:textColor="@color/Black"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70sp"
+        android:layout_marginLeft="15sp">
+
+        <RadioButton
+            android:id="@+id/escritor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="escritor" />
+        <RadioButton
+            android:id="@+id/pintor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pintor" />
+
+        <RadioButton
+            android:id="@+id/escultor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="escultor" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/nameArtista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre artista"
+        android:layout_marginTop="200sp"
+        android:layout_marginLeft="15sp"
+        />
+
+    <EditText
+        android:id="@+id/biografiaC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Biografia corta"
+        android:layout_marginTop="260sp"
+        android:layout_marginLeft="15sp"
+        android:inputType="textMultiLine"/>
+
+    <Button
+        android:id="@+id/registrarArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350sp"
+        android:layout_marginLeft="15sp"
+        android:background="@color/WhiteSmoke"
+        android:text="Registrar"></Button>
+
+</FrameLayout>
