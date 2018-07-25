@@ -21,6 +21,6 @@ public class InfoPersonal extends AppCompatActivity {
             String datos=para.getString("infoUsu");
             nombre.setText(datos);
         }
-
+//Ariel fumetas
     }
 }
